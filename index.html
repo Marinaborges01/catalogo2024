@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Beleza</title>
+    <style>
+       body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #87CEFA; /* Azul claro */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    background-image: url('images/makeup-header-bg.png'); /* Imagem de fundo com desenhos de maquiagem */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navegação */
+nav {
+    background-color: #B0E0E6; /* Azul mais suave */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFD700; /* Dourado para o hover */
+}
+
+/* Seções principais */
+section {
+    padding: 30px;
+}
+
+/* Cartões de produtos */
+.product-card {
+    background-color: white;
+    border: 2px solid #f00101; /* Borda azul claro */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('images/makeup-background.png'); /* Fundo com desenhos de maquiagem */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h2 {
+    color: #4682B4; /* Azul mais escuro */
+    font-size: 1.8em;
+}
+
+.product-card p {
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #4682B4; /* Azul escuro */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Desenhos de Maquiagem */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+    background-image: url('images/makeup-pattern.png'); /* Padrão de fundo com desenhos de maquiagem */
+    background-size: 150px;
+    background-repeat: repeat;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Beleza 2024</h1>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.w4yxBSjI2l8PtbT1mJtnQQHaHa?rs=1&pid=ImgDetMain" alt="Base Líquida Radiance">
+            <div class="product-details">
+                <h2>Base Líquida Radiance</h2>
+                <p><strong>Descrição:</strong> Base líquida com acabamento radiante, ideal para todos os tipos de pele. Proporciona uma cobertura média a completa e um efeito luminoso natural.</p>
+                <p><strong>Preço:</strong> R$ 89,90</p>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B05546/MakeB_Primer_B05546.jpg" alt="Base Líquida Radiance">
+                <div class="product-details">
+                    <h2>Prime facial regenerador</h2>Primer Antioleosidade Make B. Mate Salicylic 30g.</p>
+                    <p><strong>Preço:</strong> R$ 110,90</p>
+            
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.DpBDyGaUr5pwePvCPi1pEwHaJ6?rs=1&pid=ImgDetMain" alt="Paleta de Sombras Glamour">
+            <div class="product-details">
+                <h2>Paleta de Sombras Glamour</h2>
+                <p><strong>Descrição:</strong> Paleta de sombras com 16 cores intensas e variadas, desde tons neutros até cores vibrantes. Perfeita para criar looks do dia a dia ou para ocasiões especiais.</p>
+                <p><strong>Preço:</strong> R$ 129,90</p>
+                
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://th.bing.com/th/id/R.883696dd32978518fb2ffaca13fa0772?rik=mV14bzn5ubsQKA&pid=ImgRaw&r=0" alt="Máscara de Cílios Volume Plus">
+            <div class="product-details">
+                <h2>Máscara de Cílios Volume Plus</h2>
+                <p><strong>Descrição:</strong> Máscara que proporciona volume extremo e alongamento aos cílios. Sua fórmula à prova d'água garante um olhar marcante o dia todo.</p>
+                <p><strong>Preço:</strong> R$ 69,90</p>
+                
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.l4RxL6UtmX02SiDuOJ66FgAAAA?rs=1&pid=ImgDetMain" alt="Máscara de Cílios Volume Plus">
+            <div class="product-details">
+                <h2>
+                    Paleta Makeup Revolution 'All About Pink</h2>
+                <p><strong>Descrição:</strong> A paleta em si contém 8 grandes blushes panned com uma mistura de acabamentos brilhantes e foscos perfeitos para criar aquele rubor rosado, há também 2 tons dentro da paleta que eu acho que funcionariam lindamente como pós de destaque também</p>
+                <p><strong>Preço:</strong> R$ 89,90</p>
+                  
+                                
+                        
+</body>
+</html>
